@@ -1,0 +1,23 @@
+body {
+   background-image: url("../images/kitchen.jpg");
+   background-color: #222;
+   background-size: cover;
+}
+
+#title {
+ background-color: #8ABCA6;
+ color: #563B2E;
+ font-size: 300%;
+ padding: 20px;
+ width: 70%;
+ margin: auto;
+ text-align: center;
+}
+
+#intro {
+	background-color: #EFE0B6;
+	border: 20px solid #E49F4A;
+	padding: 20px;
+	width: 50%;
+	margin-top: 100px;
+}
