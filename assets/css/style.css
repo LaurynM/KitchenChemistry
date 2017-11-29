@@ -1,24 +1,46 @@
-body {
-   background-image: url("../images/kitchen.jpg");
-   background-color: #222;
-   background-size: cover;
+body, html {
+    height: 100%;
+}
+
+.container {
+	background-image: url("../images/kitchen.jpg");
+	background-color: #222;
+	height: 100%; 
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #title {
- background-color: #8ABCA6;
- color: #563B2E;
- font-size: 300%;
- padding: 20px;
- width: 70%;
- margin: auto;
- text-align: center;
+	background-color: #8ABCA6;
+	color: #563B2E;
+	font-size: 300%;
+	padding: 20px;
+	width: 70%;
+	margin: auto;
+	text-align: center;
 }
 
-#intro {
+#intro, #final {
 	background-color: #EFE0B6;
 	border: 20px solid #E49F4A;
- 	color: #563B2E;
+	color: #563B2E;
 	padding: 20px;
 	width: 50%;
 	margin-top: 100px;
+}
+
+.game, #win-lose {
+	background-color: #EFE0B6;
+	border: 20px solid #8ABCA6;
+	width: 50%;
+	margin: auto;
+	margin-top: 100px;
+	text-align: center;
+
+}
+
+p.choice:hover {
+	border: 2px solid #E47335;
+	background-color: #E49F4A;
 }
